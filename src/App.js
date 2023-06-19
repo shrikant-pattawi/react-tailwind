@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Form1 from './tsx/form1.tsx';
+import Form2 from './tsx/form2.tsx';
+import JobCard from './tsx/jobCard.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Form1/>
+      <Form2/>
+      <JobCard/>
     </div>
-  );
+  )
 }
-
 export default App;
