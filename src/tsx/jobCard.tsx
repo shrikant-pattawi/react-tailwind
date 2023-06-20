@@ -61,7 +61,7 @@ function JobCard(){
   ]
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-6  bg-slate-400 mt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-6  bg-[#D8D8D8] mt-4">
             {JobCards(jobDetails)}
         </div>
     )
